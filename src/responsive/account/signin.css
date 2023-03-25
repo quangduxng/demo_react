@@ -1,0 +1,25 @@
+@media (max-width: 740px){
+   .login-page{
+       display: flex;
+       justify-content: center;
+       position: relative;
+   }
+   .btn-backtohome{
+        position: absolute;
+        left: 0 !important;
+   }
+   .container-form{
+        /* margin-top: -10px; */
+        width: 560px !important;
+        margin-left: -200px !important;
+   }
+   .animation{
+       display: none;
+   }
+   .title-signin{
+       text-align: center;
+   }
+   /* .form-signin{
+       height: 375px;
+   } */
+}

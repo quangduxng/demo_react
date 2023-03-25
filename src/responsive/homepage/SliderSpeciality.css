@@ -1,0 +1,19 @@
+@media (max-width: 740px){
+    #slide-speciality .speciality-title1{
+        font-size: 26px !important;
+    }
+    #slide-speciality .speciality-title2{
+        font-size: 16px !important;
+    }
+    #slide-speciality .section-specialty{
+        height: 370px !important;
+    }
+    #slide-speciality .speciality-content{
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    #slide-speciality .slick-prev,
+    #slide-speciality .slick-next{
+        display: none !important;
+    }
+}

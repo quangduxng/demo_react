@@ -1,0 +1,6 @@
+@media (max-width: 740px){
+    .section-handbook .slick-prev,
+    .section-handbook .slick-next{
+        display: none !important;
+    }
+}

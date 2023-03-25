@@ -1,0 +1,75 @@
+#container-booking{
+    background-color: #f8f9fad8;
+}
+#container-booking .info-personal{
+    width: 1400px;
+    height: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    /* grid-template-columns: 650px 650px; */
+    justify-content: center;
+}
+.info-doctor{
+    display: grid;
+    grid-template-columns: 250px 400px;
+}
+.img-doctor{
+    width: 200px;
+    margin: 20px 20px 0 0px;
+}
+.info-customer{
+    width: 600px !important;
+    padding-left: 35px;
+    border-left: 2px rgb(214, 217, 219) dashed;
+}
+/* .wrapper-info-doctor{
+    grid-row: 1 / span 2;
+} */
+.picker-comfirm{
+    width: 1400px;
+    height: 550px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-top: 20px;
+    /* display: grid;
+    grid-template-columns: 650px 650px; */
+    justify-content: center;
+}
+.picker-comfirm{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.date{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-clinic{
+    width: 540px;
+}
+.time{
+    display: grid;
+    width: 500px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+.clinic{
+    display: flex;
+    flex-direction: column;
+}
+.select-clinic{
+    width: 350px;
+    border: 2px #7fb9e9c7 solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.confirm{
+    width: 450px;
+}

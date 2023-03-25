@@ -1,0 +1,92 @@
+.speciality{
+    transition: 0.2s;  
+}
+ .img-speciality{
+    border-radius: 50%; 
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 10%);
+    margin-top: 45px;
+}
+ .text-info-speciality{
+    margin-top: 5px;
+}
+#slide-speciality .btn-book{
+    margin-top: 12px;
+    max-width: 100px;
+    height: 30px;
+}
+#slide-speciality .slick-slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+ #slide-speciality .speciality:hover  .text-info-speciality{
+    color:#007bff ;
+}
+#slide-speciality .section-specialty{
+    height: 440px;
+    background-color: #fff;
+    border: 1px #ffff solid;   
+}
+#slide-speciality .speciality-header{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+#slide-speciality .section-specialty .speciality-title1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#slide-speciality .section-specialty .speciality-title2{
+    font-size: 20px;
+    word-spacing: 3px;
+    color: #5c5656;
+}
+#slide-speciality .speciality-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px !important;
+    height: 280px;
+    margin-top: 65px;
+    /* background-color: aqua; */
+}
+#slide-speciality .img-customize{  
+    height: 100px;  
+    padding-left: 20px;
+    
+}
+#slide-speciality .slick-prev:before{
+    font-family: FontAwesome !important;
+    color: black !important;
+}
+#slide-speciality .slick-prev {
+    border-radius: 50%;
+    left:-50px !important;
+    top: 150px !important;
+    z-index: 5;
+    width: 48px !important;
+    height: 44px !important;
+    background: #ffff !important;
+    border: 2px solid #d7d7d7 !important;
+}
+#slide-speciality .slick-prev:hover{
+    background: #d7d7d7 !important;
+}
+#slide-speciality .slick-next{
+    border-radius: 50%;
+    z-index: 5;
+    background-color: blue !important;
+    right: -50px !important;
+    top: 150px !important;
+    width: 48px !important;
+    height: 44px !important;
+    background: #ffff !important;
+    border: 2px solid #d7d7d7 !important;
+}
+#slide-speciality .slick-next:hover{
+    background: #d7d7d7 !important;
+}
+#slide-speciality .slick-next:before{
+    font-family: FontAwesome !important;
+    color: black !important;
+}
+

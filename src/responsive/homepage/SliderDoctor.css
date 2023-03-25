@@ -1,0 +1,21 @@
+@media (max-width: 740px){
+    #slide-doctor .section-doctor{
+        height: 520px;
+        margin-left: -20px;
+    }
+    #slide-doctor .doctor-title1{
+        font-size: 26px;
+    }
+    #slide-doctor .doctor-title2{
+        font-size: 17px;
+    }
+    #slide-doctor .btn-more{
+        border: 1px #d7d7d7 solid;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        position: absolute;
+        top: 108px;
+        right: 75px;
+    }
+}

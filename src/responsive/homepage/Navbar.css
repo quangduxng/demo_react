@@ -1,0 +1,8 @@
+@media (max-width: 740px){
+    .chakra-image{
+        margin-left: 0px !important;
+    }
+    .chakra-stack{
+        border: none !important;
+    }
+}

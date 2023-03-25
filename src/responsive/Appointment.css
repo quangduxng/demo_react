@@ -1,0 +1,89 @@
+@media (max-width: 740px){
+    .info-personal{
+        flex-direction: column;
+        height: 850px !important;
+        width: 345px !important;
+        align-items: center;
+    }
+    .img-doctor {
+        width: 200px;
+        margin: 20px 0px 0 32px !important;
+    }
+    .info-doctor{
+        display: grid !important;
+        grid-template-rows: 250px 290px !important;
+        grid-template-columns: 270px !important;
+        align-items: center;
+        width: 270px;
+    }
+    .info-customer {
+        max-width: 270px !important;
+        border-left: none !important;
+        padding-left: 0 !important;
+    }
+    .picker-comfirm {
+        display: flex !important;
+        width: 360px !important;
+        height: 1580px !important;
+        flex-direction: column;
+        justify-items: center;
+        align-content: center;
+    }
+    .time-clinic {
+        width: 360px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .time {
+        display: grid !important;
+        width: 360px !important;
+        grid-template-columns: auto auto auto !important;
+        grid-template-rows: auto auto !important;
+    }
+    .comfirm-appointment {
+        width: 360px;
+        display: flex;
+        align-items: center;
+    }
+    .wrapper-customer {
+        display: grid;
+        width: 320px;
+        height: 180px;
+        grid-template-columns: 300px;
+        grid-template-rows: 40px 40px 40px 40px;
+        border: 2px black dashed;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .wrapper-doctor {
+        display: grid;
+        width: 320px;
+        height: 180px;
+        grid-template-columns: 300px;
+        grid-template-rows: 40px 40px 40px 40px;
+    }
+    .wrapper-datetime {
+        display: grid;
+        width: 320px;
+        height: 150px;
+        grid-template-columns: 300px;
+        grid-template-rows: 40px 40px 40px;
+    }
+    .name-doctor{
+        top: 313px;
+        left: 34px;
+    }
+    .name-customer{
+        left: 34px;
+        top: 109px;
+    }
+    .name-datetime{
+        top: 516px;
+        left: 34px;
+    }
+    .btn-confirm{
+        margin-left: 0;
+    }
+}

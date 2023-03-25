@@ -1,0 +1,100 @@
+.title-appoitment{
+    margin: 30px 0px 30px 60px;
+}
+.wrapper-btn-time{
+    width: 500px !important;
+}
+.btn-time{
+    border-radius: 20px;
+    width: 110px !important;
+    height: 40px;
+    margin: 10px 5px;
+    border: 2px #7fb9e9c7 solid;
+}
+
+.btn-time-selected{
+    border-radius: 20px;
+    background-color: rgb(69, 152, 248);
+    width: 110px !important;
+    height: 40px;
+    margin: 10px 5px;
+    border: 2px #7fb9e9c7 solid;
+}
+.btn-time:hover{
+    background-color: #4299e1 !important;
+}
+.wrapper-customer{
+    display: grid;
+    width: 450px;
+    height: 100px;
+    grid-template-columns: 275px 158px;
+    grid-template-rows: 40px 40px;
+    border: 2px black dashed;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.wrapper-doctor{
+    display: grid;
+    width: 450px;
+    height: 100px;
+    grid-template-columns: 275px 158px;
+    grid-template-rows: 40px 40px;
+    border: 2px black dashed;
+    border-radius: 10px;
+    margin-top: 23px;
+    padding-left: 10px;
+}
+#confirm{
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+.name-customer{
+    position: absolute;
+    background-color: #ffff;
+    top: 92px;
+    left: 21px;
+    height: 30px;
+}
+.name-doctor{
+    position: absolute;
+    background-color: #ffff;
+    top: 215px;
+    left: 21px;
+    height: 30px;
+}
+.wrapper-datetime{
+    display: grid;
+    width: 450px;
+    height: 100px;
+    grid-template-columns: 275px 158px;
+    grid-template-rows: 30px 30px;
+    border: 2px black dashed;
+    border-radius: 10px;
+    margin-top: 26px;
+    padding-left: 10px;
+}
+.name-datetime{
+    position: absolute;
+    background-color: #ffff;
+    top: 341px;
+    left: 21px;
+    height: 30px;
+    width: 190px;
+    text-align: center;
+}
+.btn-confirm{
+    background-color: #ffff !important;
+    color: black !important;
+    margin-top: 17px;
+    border: 2px #7fb9e9c7 solid;
+    margin-left: 130px;
+}
+.btn-confirm:hover{
+    background-color: #4299e1 !important;
+    color: white !important;
+}
+.comfirm-appointment{
+    width: 500px;
+}

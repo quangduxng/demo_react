@@ -1,0 +1,81 @@
+#doctor{
+    height: 500px;
+    padding-left: 50px;
+}
+#doctor .container-doctor{
+    width: 1150px;
+    height: 430px;
+    margin-left: 143px;
+    margin-top: 60px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.title-doctor{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+#doctor .container-item{
+    width: 1150px;
+   
+
+}
+#doctor .container-doctor .doctor-item{
+    /* background-color: bisque; */
+    height: 313px;
+    width: 220px;
+    border:  3px solid #5FC3FD;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    display: inline-block;
+    margin-left: 120px;
+}
+#doctor .container-doctor .container-item img{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+
+#doctor .container-doctor .container-item .name-doctor,
+#doctor .container-doctor .container-item .speciality-doctor{
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#doctor .container-doctor .btn-back,
+#doctor .container-doctor .btn-next{
+    height: 60px;
+    width: 35px;
+    background-color: #ffff;
+}
+#doctor .container-doctor .btn-back{
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    border: 2px solid #d7d7d7;
+    top: 180px;
+}
+#doctor .container-doctor .btn-next{
+    border-radius:  10px 0 0 10px ;
+    position: absolute;
+    border: 2px solid #d7d7d7;
+    top: 180px;
+    right: 0px;
+}
+#doctor .container-doctor .doctor-item hr{
+    color: #5FC3FD;
+    background: #5FC3FD;
+    border: 0;
+    height: 1px;
+}
+#doctor .container-doctor .btn-booking{
+    font-size: 20px;
+    margin-left: 55px;
+    background-color: white;
+    border: hidden;
+}

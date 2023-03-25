@@ -1,0 +1,33 @@
+@media (max-width: 740px){
+
+  .container-profile{
+      flex-direction: column;
+      min-height: 1320px;
+  }
+  .user-avt{
+      margin-left: 20px;
+      width: 94% !important;
+    }
+    .custom-file-input{
+      margin-left: 20px;
+    }
+    .box{
+      margin-left: 40px;
+      width: 200px;
+    }
+    .text-inf{
+      border: 1px black solid !important;
+      margin-bottom: 10px !important;
+    }
+    img{
+      padding-left: 0;
+    }
+    .change-info{
+        margin-left: 78px !important;
+    }
+    .schedule {
+      border-left: none;
+      flex-wrap: nowrap;
+      width: 324px !important;
+  }
+}
